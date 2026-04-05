@@ -8,11 +8,14 @@ A curated collection of Claude Code plugins by Anders Hagberg.
 /plugin marketplace add andershagberg/claude-marketplace
 ```
 
+The marketplace is registered as `hagberg-plugins`.
+
 ## Install a plugin
 
 ```bash
-/plugin install long-running-harness@claude-marketplace
+/plugin install long-running-harness@hagberg-plugins
 ```
+
 
 Or browse available plugins in `/plugin > Discover`.
 
