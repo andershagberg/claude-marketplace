@@ -1,0 +1,27 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "Anders Hagberg"
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code plugins by Anders Hagberg"
+  },
+  "plugins": [
+    {
+      "name": "long-running-harness",
+      "source": {
+        "source": "github",
+        "repo": "andershagberg/long-running-harness"
+      },
+      "description": "Structured harness for long-running AI agent tasks with planning, generator-evaluator feedback loops, progress tracking, and session resumption.",
+      "version": "1.0.3",
+      "author": {
+        "name": "Anders Hagberg"
+      },
+      "homepage": "https://github.com/andershagberg/long-running-harness",
+      "license": "MIT",
+      "keywords": ["harness", "long-running", "agents", "planning", "evaluation"],
+      "category": "productivity"
+    }
+  ]
+}
